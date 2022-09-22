@@ -12,3 +12,4 @@ This is my portfolio, which contains an image, navigation, and several sections 
 <img width="1761" alt="portfolio-screenshot-2" src="https://user-images.githubusercontent.com/106932259/175791412-a4ecf41a-86c9-45d7-8f3a-c96adf642535.png">
 ## Live link of site/portfolio
 https://laurenp305.github.io/fantastic-robot/# portfolio
+# portfolio
