@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/*ADDED COLOR GRADIENT TO NAV BAR*/
+
+.hero nav {
+    background-image: linear-gradient(to right top, #bfa8bb, #b5b0d1, #9bbce3, #78c9e5, #67d4d5, #62d4c4, #68d2af, #77cf97, #67c689, #57bd7b, #46b46d, #33ab5f);
+}
+
+/*NAVIGATION*/
+
+.logo{
+    max-height: 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    background: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: white;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+/*MAIN MESSAGE*/
+
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #33AB5F;
+}
+.content p{
+    width: 55%;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/*INCLUDES ABOUT, SKILLS, MY WORK, & CONTACT*/
+
+.info {
+    text-align: center;
+}
+
+/*ABOUT ME*/
+
+.about-section {
+    color: #1f1f25;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.about-section h2{ 
+    color: #33AB5F;
+    margin-bottom: 30px;
+}
+
+/*MY SKILLS*/
+
+.skills-section {
+    color: #1f1f25;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.skills-section h2{
+    color: #8CDBA9;
+    margin-bottom: 30px;
+}
+
+/*WHAT I'VE DONE*/
+
+.my-work {
+    color: #1f1f25;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.my-work h2 {
+    color: #BFA8BB;
+    margin-bottom: 30px;
+}
+
+.my-work p {
+    margin-bottom: 30px;
+}
+
+.my-work img {
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+.my-work .img1 {
+    max-width: 60%;
+}
+
+.my-work .img1:hover {
+    max-width: 80%;
+}
+
+/*CONTACT ME*/
+
+.contact-me {
+    color: #484747;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.contact-me h2 {
+    margin-bottom: 30px;
+}
+
+.contact-me a{
+    color: black;
+}
+
+.contact-me a:hover{
+    color: #F64473;
+}
+
